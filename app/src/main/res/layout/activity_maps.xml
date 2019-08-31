@@ -28,6 +28,31 @@
             map:layout_constraintTop_toTopOf="parent"
             map:layout_constraintVertical_bias="0.972" />
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="273dp"
+            android:layout_height="37dp"
+            android:background="@drawable/cajon_de_busqueda_contactos"
+            android:text="TextView"
+            map:layout_constraintBottom_toBottomOf="parent"
+            map:layout_constraintEnd_toEndOf="parent"
+            map:layout_constraintHorizontal_bias="0.505"
+            map:layout_constraintStart_toStartOf="parent"
+            map:layout_constraintTop_toTopOf="parent"
+            map:layout_constraintVertical_bias="0.121" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="69dp"
+            android:layout_height="63dp"
+            android:background="@drawable/menu_icono"
+            map:layout_constraintBottom_toBottomOf="parent"
+            map:layout_constraintEnd_toEndOf="parent"
+            map:layout_constraintHorizontal_bias="0.013"
+            map:layout_constraintStart_toStartOf="parent"
+            map:layout_constraintTop_toTopOf="parent"
+            map:layout_constraintVertical_bias="0.003" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
