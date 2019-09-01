@@ -10,6 +10,7 @@
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_gravity="bottom"
         tools:context=".MapsActivity" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -18,40 +19,46 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Traking"
+            android:layout_width="80dp"
+            android:layout_height="73dp"
+            android:background="@drawable/icon_play"
             map:layout_constraintBottom_toBottomOf="parent"
             map:layout_constraintEnd_toEndOf="parent"
-            map:layout_constraintHorizontal_bias="0.941"
+            map:layout_constraintHorizontal_bias="0.903"
             map:layout_constraintStart_toStartOf="parent"
             map:layout_constraintTop_toTopOf="parent"
-            map:layout_constraintVertical_bias="0.972" />
+            map:layout_constraintVertical_bias="0.975" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="273dp"
-            android:layout_height="37dp"
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="316dp"
+            android:layout_height="53dp"
+            android:layout_centerInParent="true"
             android:background="@drawable/cajon_de_busqueda_contactos"
-            android:text="TextView"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center_horizontal|center_vertical"
+            android:hint="Codigo"
+            android:inputType="number"
             map:layout_constraintBottom_toBottomOf="parent"
             map:layout_constraintEnd_toEndOf="parent"
-            map:layout_constraintHorizontal_bias="0.505"
+            map:layout_constraintHorizontal_bias="0.589"
             map:layout_constraintStart_toStartOf="parent"
             map:layout_constraintTop_toTopOf="parent"
-            map:layout_constraintVertical_bias="0.121" />
+            map:layout_constraintVertical_bias="0.116" />
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="69dp"
-            android:layout_height="63dp"
+            android:layout_width="66dp"
+            android:layout_height="62dp"
             android:background="@drawable/menu_icono"
             map:layout_constraintBottom_toBottomOf="parent"
             map:layout_constraintEnd_toEndOf="parent"
-            map:layout_constraintHorizontal_bias="0.013"
+            map:layout_constraintHorizontal_bias="0.005"
             map:layout_constraintStart_toStartOf="parent"
             map:layout_constraintTop_toTopOf="parent"
-            map:layout_constraintVertical_bias="0.003" />
+            map:layout_constraintVertical_bias="0.0" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
