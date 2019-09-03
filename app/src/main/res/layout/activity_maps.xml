@@ -14,19 +14,21 @@
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Track"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.247"
+            app:layout_constraintHorizontal_bias="0.136"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.263" />
 
         <EditText
             android:id="@+id/editText2"
-            android:layout_width="263dp"
-            android:layout_height="58dp"
+            android:layout_width="347dp"
+            android:layout_height="59dp"
+            android:background="@drawable/recuadro_bordes_redondos"
             android:ems="10"
+            android:elevation="15dp"
             android:inputType="number"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -34,6 +36,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.131" />
+
+        <Button
+            android:id="@+id/menu"
+            android:layout_width="63dp"
+            android:layout_height="62dp"
+            android:background="@drawable/menu"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.007" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <fragment
